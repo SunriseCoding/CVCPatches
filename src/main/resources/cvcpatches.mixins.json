@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.sunrisecoding.cvcpatches.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "boreheadbearing.BoreheadBearingFix",
+    "laserpointer.LaserPointerFix"
+  ],
+  "client": [
+    "industrialfan.IndustrialFanClientFix"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
